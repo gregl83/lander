@@ -1,0 +1,15 @@
+# Operating System
+*.swp
+pids
+*.pid
+*.seed
+
+# IDEs
+.idea/
+
+# Wordpress Readme and License 
+readme.html
+license.txt
+
+# Log files
+.log
