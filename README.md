@@ -1,4 +1,4 @@
-# lander
+# wp-lander
 
 WordPress Landing Page Plugin
 
