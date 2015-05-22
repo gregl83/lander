@@ -37,15 +37,15 @@ function lander_template($original_template) {
 
     if (!empty($template)) {
         return $template;
-    } else {
-        if (!empty($lander)) {
-            global $wp_query;
-            $wp_query->is_404 = true;
-            return get_404_template();
-        } else {
-            return $original_template;
-        }
     }
+
+    if (empty($lander)) {
+        return $original_template;
+    }
+
+    global $wp_query;
+    $wp_query->is_404 = true;
+    return get_404_template();
 }
 add_filter('template_include', 'lander_template');
 
