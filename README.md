@@ -2,11 +2,9 @@
 
 WordPress Landing Page Plugin
 
-
 **in *slow* development**
 
-
-Early versions of this plugin will be rigid and but it could become more dynamic if time allows.
+This plugin is currently experimental and may never get published/completed based on needs/time.
 
 ## License
 
